@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mixitup",
+      "handler": "mixitup.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mixitup",
+      "handler": "mixitup.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mixitup",
+      "handler": "mixitup.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

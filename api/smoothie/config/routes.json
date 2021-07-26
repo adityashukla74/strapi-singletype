@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/smoothie",
+      "handler": "smoothie.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/smoothie",
+      "handler": "smoothie.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/smoothie",
+      "handler": "smoothie.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

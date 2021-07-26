@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/protips",
+      "handler": "protips.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/protips",
+      "handler": "protips.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/protips",
+      "handler": "protips.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
