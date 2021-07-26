@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sharelove",
+      "handler": "sharelove.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sharelove",
+      "handler": "sharelove.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sharelove",
+      "handler": "sharelove.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "kind": "singleType",
+  "collectionName": "shareloves",
+  "info": {
+    "name": "sharelove"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headline": {
+      "type": "richtext"
+    },
+    "subtext": {
+      "type": "richtext"
+    },
+    "youtubevideos": {
+      "type": "richtext"
+    },
+    "videotext": {
+      "type": "text"
+    },
+    "image1": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "shareloveimage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

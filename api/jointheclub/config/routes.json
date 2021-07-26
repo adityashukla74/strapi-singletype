@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/jointheclub",
+      "handler": "jointheclub.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/jointheclub",
+      "handler": "jointheclub.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/jointheclub",
+      "handler": "jointheclub.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
